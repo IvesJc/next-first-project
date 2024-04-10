@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import styles from './page.module.css'
 
+
 export default function Home() {
   return (
     <main className={styles.main}>
@@ -21,7 +22,7 @@ export default function Home() {
               alt="Vercel Logo"
               className={styles.vercelLogo}
               width={100}
-              height={24}
+              height={24}       
               priority
             />
           </a>
